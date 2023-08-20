@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lilita One', cursive;
+  
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: lavender;
+  background-image:url(../images/489a4f03f4ba0bfcba6aa0ce64349727.jpg);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 0.5em 2em;
+    margin-right: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: inherit;
+}
+
+.container {
+  width: max-content;
+  margin: auto;
+  margin-top: 20vh;
+
+  font-weight: bold;
+  background-color: oldlace;
+  padding: 3em 5em;
+  
+}
+
+.row {
+  padding: 1em 0;
+}
+
+.row label {
+  width: 70px;
+  display: inline-block;
+}
+
+.row input {
+  width: 300px;
+  padding: 0.5em;
+  border-radius: 100px;
+  border-color: rgba(165, 42, 42, 0.372);
+}
+
+
+.link_to_show {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row a {
+  text-transform: uppercase;
+  display: block;
+  width: fit-content;
+  padding: 0.5em 1em;
+  background-color: lightgray;
+}
+
+.row a:hover {
+  background-color: gray;
+  color: white;
+}
+
+table {
+  border: 1px solid brown;
+  
+}
+
+td, th {
+  border: 1px solid blueviolet;
+  padding: 0.5em 1em;
+
+  width: 200px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.btn a {
+  padding: 0.5em 1em;
+  display: inline-block;
+  background-color: lightgray;
+}
+
+.btn a:hover {
+  background-color: gray;
+  color: white;
+}
+
+
+
+

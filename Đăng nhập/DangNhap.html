@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="DangNhap.css">
+  <title>DangNhap</title>
+</head>
+
+<body>
+  <div class="container">
+    <form action="">
+      <div class="row header">
+        <h2>DangNhap</h2>
+      </div>
+      <div class="row row_name">
+        <label for="">Tên:</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="row row_age">
+        <label for="">Tuổi:</label>
+        <input type="number" id="age" required>
+      </div>
+      <div class="row row_email">
+        <label for="">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="row">
+        <button type="button" onclick="submitData()">Lưu dữ liệu</button>
+        <button type="reset">Nhập lại</button>
+      </div>
+    </form>
+    <div class="row link_to_show">
+      <a href="show.html" target="_blank">Bảng dữ liệu</a>
+    </div>
+  </div>
+
+
+
+  <script src="./DangNhap_HienThi.js"></script>
+</body>
+
+</html>
